@@ -4,7 +4,8 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -32,6 +33,9 @@ Users should be able to:
 ### Desktop View
 
 ![desktop view screenshot](https://github.com/devkilyungi/Product-preview-card-component/blob/main/images/desktop-view-screenshot.jpeg)
+
+###Links
+![Live site URL](https://devkilyungi.github.io/Product-preview-card-component/)
 
 ## My process
 

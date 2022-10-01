@@ -34,8 +34,8 @@ Users should be able to:
 
 ![desktop view screenshot](https://github.com/devkilyungi/Product-preview-card-component/blob/main/images/desktop-view-screenshot.jpeg)
 
-###Links
-![Live site URL](https://devkilyungi.github.io/Product-preview-card-component/)
+### Links
+- Live Site URL: [Live Site](https://devkilyungi.github.io/Product-preview-card-component/)
 
 ## My process
 

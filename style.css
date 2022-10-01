@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700&family=Montserrat:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", "san-serif";
+  font-weight: 500;
+}
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+  --font-size: 14px;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section {
+  position: relative;
+  height: 85vh;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex: 1;
+}
+section .image {
+  background-image: url("./images/image-product-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 650px;
+  border-radius: 5px 0 0 5px;
+}
+section .text-section {
+  background-color: var(--White);
+  height: 300px;
+  border-radius: 0 5px 5px 0;
+  padding: 1rem;
+}
+section .text-section .light-heading {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  color: var(--dark-grayish-blue);
+  letter-spacing: 0.25em;
+}
+section .text-section .main-heading {
+  font-family: "Fraunces", "san-serif";
+  font-weight: 700;
+  margin: 1rem 0;
+  color: var(--very-dark-blue);
+  line-height: 1.35rem;
+}
+section .text-section .content {
+  font-size: 10px;
+  color: var(--dark-grayish-blue);
+}
+section .text-section .price-tags {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+section .text-section .price-tags .current-price {
+  font-family: "Fraunces", "san-serif";
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding-right: 15px;
+  color: var(--dark-cyan);
+}
+section .text-section .price-tags .prev-price {
+  font-family: "Fraunces", "san-serif";
+  font-size: 0.7rem;
+  text-decoration: line-through;
+  color: var(--dark-grayish-blue);
+}
+section .text-section .btn {
+  outline: none;
+  border: 1px solid var(--dark-cyan);
+  background-color: var(--dark-cyan);
+  height: 35px;
+  width: 150px;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 11px;
+  color: var(--White);
+  font-weight: 700;
+  margin-left: 5px;
+  transition: 0.5s all;
+}
+section .text-section .btn:hover {
+  color: var(--cream);
+  background-color: var(--very-dark-blue);
+}
+section .text-section .btn .cart-icon {
+  height: 38%;
+  padding-right: 0.25rem;
+}
+.attribution {
+  height: 15vh;
+  font-size: 12px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/*Mobile screens responsiveness*/
+@media (max-width: 528px) {
+  section {
+    flex-direction: column;
+    margin: 5vh 0;
+  }
+  section .image {
+    background-image: url("./images/image-product-mobile.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 240px;
+  }
+  section .text-section {
+    height: 225px;
+    width: 240px;
+    padding: 0.9rem;
+  }
+
+  section .text-section .light-heading {
+    font-size: 0.5em;
+    letter-spacing: 0.2em;
+  }
+  section .text-section .main-heading {
+    margin: 0.5rem 0;
+    font-size: 22px;
+    line-height: 1.2rem;
+  }
+  section .text-section .content {
+    font-size: 10px;
+  }
+  section .text-section .price-tags {
+    margin: 0.75rem 0;
+  }
+  section .text-section .price-tags .current-price {
+    font-size: 1.15rem;
+    padding-right: 13px;
+  }
+  section .text-section .price-tags .prev-price {
+    font-size: 0.6rem;
+  }
+  section .text-section .btn {
+    font-size: 9px;
+    width: 200px;
+  }
+  .attribution {
+    height: 13vh;
+    font-size: 10px;
+  }
+}

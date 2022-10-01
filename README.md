@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![mobile view screenshot](./images/mobile-view-screenshot.jpg)
-![desktop view screenshot](./images/desktop-view-screenshot.jpg)
+![mobile view screenshot](https://github.com/devkilyungi/Product-preview-card-component/blob/main/images/mobile-view-screenshot.jpeg)
+![desktop view screenshot](https://github.com/devkilyungi/Product-preview-card-component/blob/main/images/desktop-view-screenshot.jpeg)
 
 ## My process
 

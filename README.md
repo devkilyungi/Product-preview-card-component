@@ -23,9 +23,14 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
+### Screenshots
+
+### Mobile View
 
 ![mobile view screenshot](https://github.com/devkilyungi/Product-preview-card-component/blob/main/images/mobile-view-screenshot.jpeg)
+
+### Desktop View
+
 ![desktop view screenshot](https://github.com/devkilyungi/Product-preview-card-component/blob/main/images/desktop-view-screenshot.jpeg)
 
 ## My process

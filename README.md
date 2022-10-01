@@ -5,7 +5,6 @@
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -28,10 +27,6 @@ Users should be able to:
 
 ![mobile view screenshot](./images/mobile-view-screenshot.jpg)
 ![desktop view screenshot](./images/desktop-view-screenshot.jpg)
-
-### Links
-
-- Live Site URL: [Github pages url](https://devkilyungi.github.io/Product-card-review-component)
 
 ## My process
 

@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Github pages url](https://devkilyungi.io/Product-card-review-component)
+- Live Site URL: [Github pages url](https://devkilyungi.github.io/Product-card-review-component)
 
 ## My process
 
